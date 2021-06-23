@@ -5,10 +5,13 @@
 #
 
 # Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+# Build Official
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
