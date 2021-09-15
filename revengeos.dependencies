@@ -15,8 +15,9 @@
         "target_path":  "vendor/realme/sdm710-common"
     },
     {
-        "remote": "devices",
-        "repository":   "vendor_realme_RMX1971",
-        "target_path":  "vendor/realme/RMX1971"
+        "remote": "gitlab",
+        "repository":   "AkaruiAikara/vendor_realme_RMX1971",
+        "target_path":  "vendor/realme/RMX1971",
+        "branch": "eleven"
     }
 ]
